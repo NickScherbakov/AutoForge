@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { authAPI, userAPI } from '@/lib/api';
 import { useAuthStore } from '@/store/authStore';
+import { DEMO_MODE } from '@/lib/demo-data';
 
 export default function Register() {
   const router = useRouter();
@@ -52,6 +53,13 @@ export default function Register() {
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
         <h2 className="text-3xl font-bold text-center mb-8">Register for AutoForge</h2>
 
+        {DEMO_MODE && (
+          <div className="bg-blue-100 border border-blue-400 text-blue-700 px-4 py-3 rounded mb-4">
+            <p className="font-semibold">Demo Mode Active</p>
+            <p className="text-sm">Enter any email and password to explore the dashboard!</p>
+          </div>
+        )}
+
         {error && (
           <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
             {error}
@@ -70,6 +78,7 @@ export default function Register() {
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
               required
+              placeholder={DEMO_MODE ? 'demo@autoforge.io' : ''}
             />
           </div>
 
@@ -84,6 +93,7 @@ export default function Register() {
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
               required
+              placeholder={DEMO_MODE ? 'demo' : ''}
             />
           </div>
 
@@ -98,6 +108,7 @@ export default function Register() {
               onChange={(e) => setConfirmPassword(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
               required
+              placeholder={DEMO_MODE ? 'demo' : ''}
             />
           </div>
 

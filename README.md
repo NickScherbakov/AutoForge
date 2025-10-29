@@ -5,6 +5,16 @@
 
 **AutoForge** is a no-code platform for automating business processes with a Pay-Per-Successful-Execution pricing model. Create workflows with a simple interface and only pay when they successfully execute.
 
+## 🎭 Try the Live Demo
+
+**[View Interactive Demo on GitHub Pages →](https://nickscherbakov.github.io/AutoForge/)**
+
+Experience AutoForge without any setup! The demo includes:
+- ✅ Full UI with simulated backend
+- ✅ Sample workflows and execution history
+- ✅ Interactive dashboard
+- ✅ No registration needed - just click and explore!
+
 ## 🚀 Project Status
 
 **✅ MVP Complete** - Ready for community review and testing!
@@ -25,6 +35,7 @@
 - ✅ **Pay-Per-Success Billing** - Stripe integration, charge only on success
 - ✅ **User Dashboard** - View workflows, balance, and execution history
 - ✅ **Authentication** - Secure email/password registration and login
+- ✅ **GitHub Pages Demo** - Live interactive demo without backend
 
 #### 🏗️ Technical Stack
 - **Frontend**: Next.js 14, TypeScript, Tailwind CSS
@@ -32,6 +43,7 @@
 - **Task Queue**: Celery with Redis broker
 - **Payments**: Stripe integration
 - **Deployment**: Docker Compose for easy setup
+- **Demo**: Static site on GitHub Pages
 
 ## 🎯 Quick Start
 
@@ -129,6 +141,19 @@ npm test
 
 ## 🚢 Deployment
 
+### GitHub Pages Demo
+The project includes a static demo version that can be deployed to GitHub Pages:
+
+```bash
+# Build for GitHub Pages
+cd frontend
+NEXT_PUBLIC_DEMO_MODE=true NEXT_PUBLIC_BASE_PATH=/AutoForge npm run build
+
+# The static site is in the 'out' directory
+```
+
+See [GITHUB_PAGES.md](GITHUB_PAGES.md) for detailed instructions.
+
 ### Docker Compose (Recommended for VPS)
 ```bash
 # Production deployment
@@ -136,7 +161,7 @@ docker-compose -f docker-compose.yml up -d
 ```
 
 ### Platform Recommendations
-- **Frontend**: Vercel, Netlify
+- **Frontend**: Vercel, Netlify, GitHub Pages (demo)
 - **Backend**: Railway, Render, DigitalOcean
 - **Database**: Managed PostgreSQL (Railway, Supabase)
 - **Redis**: Redis Cloud, Upstash
