@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script to build and test GitHub Pages locally
 
 set -e
