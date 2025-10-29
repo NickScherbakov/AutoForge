@@ -272,7 +272,7 @@ export default function ChainDetail() {
                 <div className="mt-6 p-3 bg-blue-50 rounded">
                   <p className="text-sm font-semibold mb-1">Webhook URL:</p>
                   <code className="text-xs break-all">
-                    {process.env.NEXT_PUBLIC_API_URL}/webhooks/{chain.id}
+                    {process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/webhooks/{chain.id}
                   </code>
                 </div>
               )}
