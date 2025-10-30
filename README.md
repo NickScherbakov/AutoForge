@@ -15,6 +15,8 @@ Experience AutoForge without any setup! The demo includes:
 - ✅ Interactive dashboard
 - ✅ No registration needed - just click and explore!
 
+> **Setting up GitHub Pages for your fork?** See [GITHUB_PAGES_SETUP.md](./GITHUB_PAGES_SETUP.md) for quick setup instructions.
+
 ## 🚀 Project Status
 
 **✅ MVP Complete** - Ready for community review and testing!
