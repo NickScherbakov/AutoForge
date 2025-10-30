@@ -1,5 +1,14 @@
 name: Deploy to GitHub Pages
 
+# This workflow deploys the AutoForge demo to GitHub Pages
+# 
+# IMPORTANT: Before this workflow can succeed, you must:
+# 1. Go to Settings → Pages in your repository
+# 2. Set "Source" to "GitHub Actions" (not a branch)
+# 3. Save the settings
+#
+# See GITHUB_PAGES_SETUP.md for detailed setup instructions
+
 on:
   push:
     branches:
