@@ -680,6 +680,6 @@ See full roadmap in [README.md](README.md).
 
 ---
 
-**Last Updated**: November 2025
+**Last Updated**: November 2024
 
 *This FAQ will be updated as new questions arise. Suggest additions via [GitHub Issues](https://github.com/NickScherbakov/AutoForge/issues).*

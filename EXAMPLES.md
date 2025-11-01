@@ -445,9 +445,14 @@ curl -X POST https://your-autoforge.com/webhooks/{chain_id} \
 }
 ```
 
-**Cost**: 288 checks/day × $0.05 = $14.40/day = $432/month
+**Cost**: 288 checks/day × $0.05 = $14.40/day = $432/month (every 5 minutes, 24/7)
 
-**Alternative**: UptimeRobot Pro = $84/month (but less customization)
+**More practical intervals**:
+- Every 15 minutes: $144/month
+- Every 30 minutes: $72/month  
+- Business hours only (every 30 min): $6/month
+
+**Comparison**: UptimeRobot Pro = $84/month, Pingdom = $15-$72/month
 
 ---
 

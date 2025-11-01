@@ -518,4 +518,4 @@ Don't pay for failures
 
 ---
 
-*This comparison is accurate as of 2025. Pricing and features of other platforms may change.*
+*This comparison is accurate as of November 2024. Pricing and features of other platforms may change. Always verify current pricing on official websites.*

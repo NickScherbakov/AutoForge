@@ -170,10 +170,12 @@ curl -X POST http://localhost:8000/webhooks/{chain_id} \
 
 **Result**: You'll be alerted within 5 minutes if your API goes down!
 
-**Note**: This costs ~$432/month for 24/7 monitoring. For lighter monitoring:
-- Every 15 minutes: `*/15 * * * *` = $144/month
-- Every hour: `0 * * * *` = $36/month
-- Business hours only: `0 9-17 * * 1-5` = $6/month
+**Note**: This costs ~$432/month for 24/7 monitoring every 5 minutes. **More cost-effective options**:
+- Every 15 minutes (24/7): `*/15 * * * *` = $144/month
+- Every hour (24/7): `0 * * * *` = $36/month
+- Business hours only (every 30 min): `*/30 9-17 * * 1-5` = $6/month
+
+**Traditional monitoring services** like UptimeRobot Pro ($84/month) or Pingdom ($15-$72/month) offer similar features. AutoForge gives you flexibility to choose your monitoring frequency and only pay for what you need.
 
 ---
 
