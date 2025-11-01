@@ -5,6 +5,52 @@
 
 **AutoForge** is a no-code platform for automating business processes with a Pay-Per-Successful-Execution pricing model. Create workflows with a simple interface and only pay when they successfully execute.
 
+## 💡 Why AutoForge?
+
+### Pay Only for Success
+Traditional automation platforms charge monthly fees whether you use them or not. AutoForge charges **only when workflows successfully execute** ($0.05-$0.50 per execution).
+
+| Feature | Traditional Platforms | AutoForge |
+|---------|----------------------|-----------|
+| **Pricing Model** | $20-$100/month fixed | $0.05-$0.50 per success |
+| **Failed Executions** | Still charged | **Free** |
+| **Unused Capacity** | Wasted money | Pay nothing |
+| **Setup Cost** | Often $0 | $0 |
+| **Seasonal Business** | Pay year-round | Pay only active months |
+| **Small Usage** | $240/year minimum | As low as $6/year |
+
+### Real-World Use Cases
+- **Freelancers**: Automate client updates, invoice reminders → Save 10+ hours/month
+- **Small Business**: Customer onboarding, appointment reminders → Save $500+/month
+- **E-commerce**: Abandoned cart recovery, inventory alerts → Recover 15% more revenue
+- **Developers**: API monitoring, deployment notifications → 24/7 peace of mind
+- **Marketing**: Lead scoring, social monitoring → 10x faster response time
+
+### 📚 Learn More
+
+🚀 **[QUICKSTART.md](QUICKSTART.md)** - Build your first 3 automations in 10 minutes  
+📖 **[USE_CASES.md](USE_CASES.md)** - 25+ detailed scenarios with ROI calculations  
+📋 **[EXAMPLES.md](EXAMPLES.md)** - Ready-to-use workflow templates  
+⚖️ **[COMPARISON.md](COMPARISON.md)** - How AutoForge compares to Zapier, Make, and n8n  
+❓ **[FAQ.md](FAQ.md)** - Frequently asked questions and answers
+
+### 🎯 Choose Your Path
+
+**Just Exploring?**  
+→ Try the [Live Demo](https://nickscherbakov.github.io/AutoForge/) (no setup needed)
+
+**Ready to Automate?**  
+→ Follow [QUICKSTART.md](QUICKSTART.md) to build your first automation in 10 minutes
+
+**Want to See Examples?**  
+→ Browse [USE_CASES.md](USE_CASES.md) for real-world scenarios with ROI
+
+**Comparing Platforms?**  
+→ Read [COMPARISON.md](COMPARISON.md) to see how AutoForge stacks up
+
+**Need Templates?**  
+→ Copy configurations from [EXAMPLES.md](EXAMPLES.md)
+
 ## 🎭 Try the Live Demo
 
 **[View Interactive Demo on GitHub Pages →](https://nickscherbakov.github.io/AutoForge/)**
@@ -49,6 +95,8 @@ Experience AutoForge without any setup! The demo includes:
 
 ## 🎯 Quick Start
 
+> **New to AutoForge?** See [QUICKSTART.md](QUICKSTART.md) for a step-by-step guide to build your first 3 automations in 10 minutes!
+
 ### Prerequisites
 - Docker and Docker Compose
 - Git
@@ -75,11 +123,33 @@ See [SETUP.md](SETUP.md) for detailed manual installation instructions.
 
 ## 📖 Usage
 
+### 5-Minute Quick Start
+
 1. **Register** - Create an account at http://localhost:3000/register
 2. **Add Funds** - Deposit money to your account (requires Stripe setup)
 3. **Create Workflow** - Build your automation with triggers and actions
 4. **Execute** - Test manually or set up webhooks/schedules
 5. **Monitor** - View execution history and track costs
+
+### Popular Workflows to Try First
+
+**For Beginners:**
+- Daily email summary ($0.05/day)
+- Webhook to Telegram notifications ($0.05 per event)
+- Manual button to send reports ($0.15 on-demand)
+
+**For Business:**
+- New customer onboarding sequence ($0.20 per customer)
+- Appointment reminders ($0.05 per reminder)
+- Invoice payment reminders ($0.15/day)
+
+**For Developers:**
+- API health monitoring ($0.05 per check)
+- Deployment notifications ($0.10 per deploy)
+- Error log alerts ($0.10 per check)
+
+👉 **See [EXAMPLES.md](EXAMPLES.md) for copy-paste configurations**
+👉 **See [USE_CASES.md](USE_CASES.md) for ROI calculations**
 
 ## 🎨 Screenshots
 
@@ -196,11 +266,36 @@ See [SETUP.md](SETUP.md) for detailed deployment instructions.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+### Ways to Contribute
+
+**Share Your Use Case**
+- Built a cool automation? Share it in [USE_CASES.md](USE_CASES.md)
+- Include: problem, solution, cost, ROI
+- Help others learn from your experience
+
+**Add Workflow Examples**
+- Create ready-to-use templates for [EXAMPLES.md](EXAMPLES.md)
+- Include full JSON configuration
+- Add setup instructions
+
+**Improve Documentation**
+- Fix typos, clarify instructions
+- Add screenshots or videos
+- Translate to other languages
+
+**Code Contributions**
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+### Get Featured
+The best contributions will be:
+- Featured in README and documentation
+- Showcased on the demo site
+- Shared on social media
+- Credited in release notes
 
 ## 📄 License
 
