@@ -26,14 +26,17 @@ Traditional automation platforms charge monthly fees whether you use them or not
 - **Developers**: API monitoring, deployment notifications → 24/7 peace of mind
 - **Marketing**: Lead scoring, social monitoring → 10x faster response time
 
-**See [USE_CASES.md](USE_CASES.md) for 25+ detailed scenarios with ROI calculations**
+### 📚 Learn More
+
+🚀 **[QUICKSTART.md](QUICKSTART.md)** - Build your first 3 automations in 10 minutes  
+📖 **[USE_CASES.md](USE_CASES.md)** - 25+ detailed scenarios with ROI calculations  
+📋 **[EXAMPLES.md](EXAMPLES.md)** - Ready-to-use workflow templates  
+⚖️ **[COMPARISON.md](COMPARISON.md)** - How AutoForge compares to Zapier, Make, and n8n
 
 ### Get Started in Minutes
 1. Create workflow (no coding required)
 2. Connect your tools (webhook, API, email)
 3. Pay per successful execution
-
-**See [EXAMPLES.md](EXAMPLES.md) for ready-to-use workflow templates**
 
 ## 🎭 Try the Live Demo
 
@@ -78,6 +81,8 @@ Experience AutoForge without any setup! The demo includes:
 - **Demo**: Static site on GitHub Pages
 
 ## 🎯 Quick Start
+
+> **New to AutoForge?** See [QUICKSTART.md](QUICKSTART.md) for a step-by-step guide to build your first 3 automations in 10 minutes!
 
 ### Prerequisites
 - Docker and Docker Compose
