@@ -31,12 +31,25 @@ Traditional automation platforms charge monthly fees whether you use them or not
 🚀 **[QUICKSTART.md](QUICKSTART.md)** - Build your first 3 automations in 10 minutes  
 📖 **[USE_CASES.md](USE_CASES.md)** - 25+ detailed scenarios with ROI calculations  
 📋 **[EXAMPLES.md](EXAMPLES.md)** - Ready-to-use workflow templates  
-⚖️ **[COMPARISON.md](COMPARISON.md)** - How AutoForge compares to Zapier, Make, and n8n
+⚖️ **[COMPARISON.md](COMPARISON.md)** - How AutoForge compares to Zapier, Make, and n8n  
+❓ **[FAQ.md](FAQ.md)** - Frequently asked questions and answers
 
-### Get Started in Minutes
-1. Create workflow (no coding required)
-2. Connect your tools (webhook, API, email)
-3. Pay per successful execution
+### 🎯 Choose Your Path
+
+**Just Exploring?**  
+→ Try the [Live Demo](https://nickscherbakov.github.io/AutoForge/) (no setup needed)
+
+**Ready to Automate?**  
+→ Follow [QUICKSTART.md](QUICKSTART.md) to build your first automation in 10 minutes
+
+**Want to See Examples?**  
+→ Browse [USE_CASES.md](USE_CASES.md) for real-world scenarios with ROI
+
+**Comparing Platforms?**  
+→ Read [COMPARISON.md](COMPARISON.md) to see how AutoForge stacks up
+
+**Need Templates?**  
+→ Copy configurations from [EXAMPLES.md](EXAMPLES.md)
 
 ## 🎭 Try the Live Demo
 
